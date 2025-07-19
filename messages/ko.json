@@ -1,0 +1,49 @@
+{
+  "common": {
+    "loading": "로딩 중...",
+    "save": "저장",
+    "cancel": "취소",
+    "continue": "계속",
+    "back": "이전",
+    "next": "다음",
+    "submit": "제출",
+    "search": "검색",
+    "filter": "필터",
+    "help": "도움말",
+    "contact": "연락처",
+    "phone": "전화",
+    "email": "이메일",
+    "address": "주소",
+    "yes": "예",
+    "no": "아니오"
+  },
+  "navigation": {
+    "home": "홈",
+    "recommendation": "복지혜택 찾기",
+    "programs": "모든 복지프로그램",
+    "myRecords": "나의 기록",
+    "login": "로그인",
+    "logout": "로그아웃",
+    "admin": "관리자",
+    "skipToContent": "본문으로 건너뛰기",
+    "mainMenu": "주요 메뉴",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기"
+  },
+  "homepage": {
+    "title": "남해 복지길잡이에 오신 것을 환영합니다",
+    "subtitle": "남해군에 거주하시는 65세 이상 시니어 분들을 위한",
+    "description": "맞춤형 복지 프로그램 추천 서비스입니다",
+    "greeting": "안녕하세요! 👋",
+    "getRecommendation": {
+      "title": "나에게 맞는 복지혜택 찾기",
+      "description": "간단한 질문에 답하시면\n개인 맞춤형 복지프로그램을\n추천해드립니다",
+      "button": "시작하기"
+    },
+    "viewPrograms": {
+      "title": "모든 복지프로그램 보기",
+      "description": "남해군의 모든 복지프로그램을\n한눈에 보고 검색하실 수\n있습니다",
+      "button": "둘러보기"
+    }
+  }
+} 

@@ -1,0 +1,103 @@
+{
+  "version": 2,
+  "name": "global-senior-welfare-website",
+  "alias": ["globalseniorwelfare.org", "www.globalseniorwelfare.org"],
+  "github": {
+    "enabled": true,
+    "autoAlias": true
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "origin-when-cross-origin"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://globalseniorwelfare.org"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, PUT, DELETE, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type, Authorization, Accept-Language"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/korean",
+      "destination": "/ko",
+      "permanent": true
+    },
+    {
+      "source": "/english",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/spanish",
+      "destination": "/es",
+      "permanent": true
+    },
+    {
+      "source": "/japanese",
+      "destination": "/ja",
+      "permanent": true
+    },
+    {
+      "source": "/chinese",
+      "destination": "/zh",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/sitemap.xml",
+      "destination": "/api/sitemap"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/api/robots"
+    },
+    {
+      "source": "/healthcheck",
+      "destination": "/api/health"
+    }
+  ]
+} 

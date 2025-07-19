@@ -1,0 +1,49 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "help": "Help",
+    "contact": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "navigation": {
+    "home": "Home",
+    "recommendation": "Find Benefits",
+    "programs": "All Programs",
+    "myRecords": "My Records",
+    "login": "Login",
+    "logout": "Logout",
+    "admin": "Admin",
+    "skipToContent": "Skip to main content",
+    "mainMenu": "Main menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "homepage": {
+    "title": "Welcome to Senior Welfare Guide",
+    "subtitle": "For seniors aged 65+ living in your region",
+    "description": "Personalized welfare program recommendation service",
+    "greeting": "Hello! 👋",
+    "getRecommendation": {
+      "title": "Find Benefits That Match You",
+      "description": "Answer simple questions and\nreceive personalized welfare\nprogram recommendations",
+      "button": "Get Started"
+    },
+    "viewPrograms": {
+      "title": "Browse All Welfare Programs",
+      "description": "View and search all welfare\nprograms available in\nyour region",
+      "button": "Browse Programs"
+    }
+  }
+} 
